@@ -11,9 +11,10 @@ import Doctor from './Doctor.jpeg'
 
 const Hero = () => {
   return (
+    <div className="container">
     <div className="hero">
       <div className="hero-card">
-        <h1>Miryam.MD</h1>
+        <h1>Miryam.MD</h1>  <hr />
         <div className="doctor-and-buttons">
           <div className="doctor-image">
             <img
@@ -51,6 +52,7 @@ const Hero = () => {
         </div>
         <p className="privacy-text"><MdOutlinePrivacyTip className="icon" /> Privacy Guaranteed</p>
       </div>
+    </div>
     </div>
   );
 };

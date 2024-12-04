@@ -1,12 +1,20 @@
+.container {
+  padding: 40px 20px;
+  margin: 20px;
+  background-color: black;
+  border: 5px solid white;
+}
+
 .hero {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 80vh;
+  min-height: 60vh;
+  max-width: 800px;
 }
 
 .hero-card {
-  width: 70%;
+  width: 80%;
   background: #fff;
   border-radius: 15px;
   padding: 20px;
@@ -20,12 +28,12 @@
 
 .hero-card h1 {
   color: black;
+  font-size: 2rem;
 }
 
 .doctor-and-buttons {
   display: flex;
   align-items: center;
-  margin-top: 20px;
   flex-wrap: wrap;
   gap: 20px;
 }
@@ -43,14 +51,16 @@
 }
 
 .buttons {
-  flex: 3;
+  flex: 1;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: left;
+  align-items: left;
   gap: 10px;
 }
 
 .buttons button {
+  margin-bottom: 0px;
   padding: 8px;
   border: 1px solid black;
   border-radius: 20px;
@@ -58,6 +68,12 @@
   color: black;
   font-size: 0.9rem;
   cursor: pointer;
+}
+
+.buttons button:last-child {
+  background-color: #585757;
+  color: white;
+  border: none;
 }
 
 .buttons button:hover {
@@ -89,8 +105,12 @@
 
 .icon {
   margin-right: 10px;
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: black;
+}
+
+.icon:hover {
+  color: white;
 }
 
 .attachment-icon {
