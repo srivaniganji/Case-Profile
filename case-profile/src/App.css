@@ -1,6 +1,6 @@
 .App {
   font-family: Arial, sans-serif;
-  background-image: url(C:\Users\sriva\Downloads\Case-Profile\case-profile\src\background.jpeg);
+  background-image: url('./background.jpeg');
   background-repeat:repeat;
 }
 
